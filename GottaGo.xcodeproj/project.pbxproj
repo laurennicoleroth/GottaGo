@@ -15,8 +15,8 @@
 		96859E7B1D550E1800182777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96859E791D550E1800182777 /* LaunchScreen.storyboard */; };
 		96859E861D550E1800182777 /* GottaGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96859E851D550E1800182777 /* GottaGoTests.swift */; };
 		96859E911D550E1800182777 /* GottaGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96859E901D550E1800182777 /* GottaGoUITests.swift */; };
-		96859EA01D551F5C00182777 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96859E9F1D551F5C00182777 /* GoogleDataProvider.swift */; };
-		96859EA31D5520A500182777 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96859EA21D5520A500182777 /* GooglePlace.swift */; };
+		96859EA01D551F5C00182777 /* BathroomDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96859E9F1D551F5C00182777 /* BathroomDataProvider.swift */; };
+		96859EA31D5520A500182777 /* Bathroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96859EA21D5520A500182777 /* Bathroom.swift */; };
 		E1A15B15967E3331FDBEC966 /* Pods_GottaGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A2F0B4E0789A2246B9D770 /* Pods_GottaGo.framework */; };
 		F2F6B6BCE372EA4A8DB6C79F /* Pods_GottaGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862478F63D638C054E34BD40 /* Pods_GottaGoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -59,8 +59,9 @@
 		96859E8C1D550E1800182777 /* GottaGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GottaGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96859E901D550E1800182777 /* GottaGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GottaGoUITests.swift; sourceTree = "<group>"; };
 		96859E921D550E1800182777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96859E9F1D551F5C00182777 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
-		96859EA21D5520A500182777 /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		96859E9F1D551F5C00182777 /* BathroomDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BathroomDataProvider.swift; sourceTree = "<group>"; };
+		96859EA21D5520A500182777 /* Bathroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bathroom.swift; sourceTree = "<group>"; };
+		96C320151D55252600631C4A /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = ../../SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
 		B050DDBF8E79B202604C7CAE /* Pods-GottaGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GottaGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GottaGo/Pods-GottaGo.release.xcconfig"; sourceTree = "<group>"; };
 		E37766D3601511B5E88F3F8F /* Pods-GottaGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GottaGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GottaGoUITests/Pods-GottaGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +97,7 @@
 		966EC11C3BF26FCE816C2CB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96C320151D55252600631C4A /* SwiftyJSON.xcodeproj */,
 				65A2F0B4E0789A2246B9D770 /* Pods_GottaGo.framework */,
 				56465735709757BDCE038EC4 /* Pods_GottaGoTests.framework */,
 				862478F63D638C054E34BD40 /* Pods_GottaGoUITests.framework */,
@@ -168,8 +170,8 @@
 		96859EA11D55208E00182777 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				96859E9F1D551F5C00182777 /* GoogleDataProvider.swift */,
-				96859EA21D5520A500182777 /* GooglePlace.swift */,
+				96859E9F1D551F5C00182777 /* BathroomDataProvider.swift */,
+				96859EA21D5520A500182777 /* Bathroom.swift */,
 			);
 			name = Models;
 			path = ..;
@@ -451,8 +453,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				96859E731D550E1800182777 /* ViewController.swift in Sources */,
-				96859EA01D551F5C00182777 /* GoogleDataProvider.swift in Sources */,
-				96859EA31D5520A500182777 /* GooglePlace.swift in Sources */,
+				96859EA01D551F5C00182777 /* BathroomDataProvider.swift in Sources */,
+				96859EA31D5520A500182777 /* Bathroom.swift in Sources */,
 				96859E711D550E1800182777 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
