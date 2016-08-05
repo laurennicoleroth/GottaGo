@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4212222DB0A38D88A45656B0 /* Pods_GottaGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56465735709757BDCE038EC4 /* Pods_GottaGoTests.framework */; };
 		96859E711D550E1800182777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96859E701D550E1800182777 /* AppDelegate.swift */; };
 		96859E731D550E1800182777 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96859E721D550E1800182777 /* ViewController.swift */; };
 		96859E761D550E1800182777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96859E741D550E1800182777 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		96859E7B1D550E1800182777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96859E791D550E1800182777 /* LaunchScreen.storyboard */; };
 		96859E861D550E1800182777 /* GottaGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96859E851D550E1800182777 /* GottaGoTests.swift */; };
 		96859E911D550E1800182777 /* GottaGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96859E901D550E1800182777 /* GottaGoUITests.swift */; };
+		E1A15B15967E3331FDBEC966 /* Pods_GottaGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A2F0B4E0789A2246B9D770 /* Pods_GottaGo.framework */; };
+		F2F6B6BCE372EA4A8DB6C79F /* Pods_GottaGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862478F63D638C054E34BD40 /* Pods_GottaGoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19DCF6242499B7D459F84972 /* Pods-GottaGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GottaGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GottaGoUITests/Pods-GottaGoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56465735709757BDCE038EC4 /* Pods_GottaGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GottaGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5AA2CB3FBA5BB079703AB8 /* Pods-GottaGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GottaGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GottaGo/Pods-GottaGo.debug.xcconfig"; sourceTree = "<group>"; };
+		65A2F0B4E0789A2246B9D770 /* Pods_GottaGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GottaGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3B0C9B59AA16E7A4C901FD /* Pods-GottaGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GottaGoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GottaGoTests/Pods-GottaGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		779B5246647632C921A7DD0E /* Pods-GottaGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GottaGoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GottaGoTests/Pods-GottaGoTests.release.xcconfig"; sourceTree = "<group>"; };
+		862478F63D638C054E34BD40 /* Pods_GottaGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GottaGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96859E6D1D550E1800182777 /* GottaGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GottaGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96859E701D550E1800182777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96859E721D550E1800182777 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		96859E8C1D550E1800182777 /* GottaGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GottaGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96859E901D550E1800182777 /* GottaGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GottaGoUITests.swift; sourceTree = "<group>"; };
 		96859E921D550E1800182777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B050DDBF8E79B202604C7CAE /* Pods-GottaGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GottaGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GottaGo/Pods-GottaGo.release.xcconfig"; sourceTree = "<group>"; };
+		E37766D3601511B5E88F3F8F /* Pods-GottaGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GottaGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GottaGoUITests/Pods-GottaGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A15B15967E3331FDBEC966 /* Pods_GottaGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4212222DB0A38D88A45656B0 /* Pods_GottaGoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F6B6BCE372EA4A8DB6C79F /* Pods_GottaGoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		966EC11C3BF26FCE816C2CB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A2F0B4E0789A2246B9D770 /* Pods_GottaGo.framework */,
+				56465735709757BDCE038EC4 /* Pods_GottaGoTests.framework */,
+				862478F63D638C054E34BD40 /* Pods_GottaGoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96859E641D550E1800182777 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				96859E841D550E1800182777 /* GottaGoTests */,
 				96859E8F1D550E1800182777 /* GottaGoUITests */,
 				96859E6E1D550E1800182777 /* Products */,
+				C992D67A3E8713A2C8476C61 /* Pods */,
+				966EC11C3BF26FCE816C2CB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = GottaGoUITests;
 			sourceTree = "<group>";
 		};
+		C992D67A3E8713A2C8476C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B5AA2CB3FBA5BB079703AB8 /* Pods-GottaGo.debug.xcconfig */,
+				B050DDBF8E79B202604C7CAE /* Pods-GottaGo.release.xcconfig */,
+				6F3B0C9B59AA16E7A4C901FD /* Pods-GottaGoTests.debug.xcconfig */,
+				779B5246647632C921A7DD0E /* Pods-GottaGoTests.release.xcconfig */,
+				E37766D3601511B5E88F3F8F /* Pods-GottaGoUITests.debug.xcconfig */,
+				19DCF6242499B7D459F84972 /* Pods-GottaGoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96859E951D550E1800182777 /* Build configuration list for PBXNativeTarget "GottaGo" */;
 			buildPhases = (
+				8A8E5F04AF9DC3BF44D18795 /* [CP] Check Pods Manifest.lock */,
 				96859E691D550E1800182777 /* Sources */,
 				96859E6A1D550E1800182777 /* Frameworks */,
 				96859E6B1D550E1800182777 /* Resources */,
+				F2913F6899A98A637858C799 /* [CP] Embed Pods Frameworks */,
+				3F72E41C8BF2C19DEE9E1EE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96859E981D550E1800182777 /* Build configuration list for PBXNativeTarget "GottaGoTests" */;
 			buildPhases = (
+				8C64CE40B51FADBF108E3C51 /* [CP] Check Pods Manifest.lock */,
 				96859E7D1D550E1800182777 /* Sources */,
 				96859E7E1D550E1800182777 /* Frameworks */,
 				96859E7F1D550E1800182777 /* Resources */,
+				22CDEAC3A74A5E9AF422F0ED /* [CP] Embed Pods Frameworks */,
+				CBD39DC6E75CA7A753C2C48B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96859E9B1D550E1800182777 /* Build configuration list for PBXNativeTarget "GottaGoUITests" */;
 			buildPhases = (
+				D9E93B043E476D1165D703F6 /* [CP] Check Pods Manifest.lock */,
 				96859E881D550E1800182777 /* Sources */,
 				96859E891D550E1800182777 /* Frameworks */,
 				96859E8A1D550E1800182777 /* Resources */,
+				AE68AB302F613250C844279E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22CDEAC3A74A5E9AF422F0ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GottaGoTests/Pods-GottaGoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F72E41C8BF2C19DEE9E1EE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GottaGo/Pods-GottaGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8E5F04AF9DC3BF44D18795 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C64CE40B51FADBF108E3C51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE68AB302F613250C844279E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GottaGoUITests/Pods-GottaGoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD39DC6E75CA7A753C2C48B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GottaGoTests/Pods-GottaGoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E93B043E476D1165D703F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2913F6899A98A637858C799 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GottaGo/Pods-GottaGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96859E691D550E1800182777 /* Sources */ = {
@@ -399,6 +570,7 @@
 		};
 		96859E961D550E1800182777 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5AA2CB3FBA5BB079703AB8 /* Pods-GottaGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GottaGo/Info.plist;
@@ -410,6 +582,7 @@
 		};
 		96859E971D550E1800182777 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B050DDBF8E79B202604C7CAE /* Pods-GottaGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GottaGo/Info.plist;
@@ -421,6 +594,7 @@
 		};
 		96859E991D550E1800182777 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3B0C9B59AA16E7A4C901FD /* Pods-GottaGoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GottaGoTests/Info.plist;
@@ -433,6 +607,7 @@
 		};
 		96859E9A1D550E1800182777 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779B5246647632C921A7DD0E /* Pods-GottaGoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GottaGoTests/Info.plist;
@@ -445,6 +620,7 @@
 		};
 		96859E9C1D550E1800182777 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37766D3601511B5E88F3F8F /* Pods-GottaGoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GottaGoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		96859E9D1D550E1800182777 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DCF6242499B7D459F84972 /* Pods-GottaGoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GottaGoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				96859E971D550E1800182777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96859E981D550E1800182777 /* Build configuration list for PBXNativeTarget "GottaGoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				96859E9A1D550E1800182777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96859E9B1D550E1800182777 /* Build configuration list for PBXNativeTarget "GottaGoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				96859E9D1D550E1800182777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

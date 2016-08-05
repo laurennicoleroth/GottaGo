@@ -4,7 +4,7 @@ target 'GottaGo' do
   use_frameworks!
 
   pod 'GoogleMaps'
-  pod 'GooglePlaces'
+  pod 'GooglePlacesAPI'
 
   target 'GottaGoTests' do
     inherit! :search_paths
