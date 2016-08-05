@@ -22,6 +22,13 @@ class GooglePlace {
   init(dictionary:[String: AnyObject], acceptedTypes: [String]) {
     let json = JSON(dictionary)
     name = json["name"].stringValue
+    address = json["vicinity"].stringValue
+    
+    let latitude = json["geometry"]["location"]["lat"].doubleValue as CLLocationDegrees
+    let longitude = json["geometry"]["location"]["lng"].doubleValue as CLLocationDegrees
+    
+    coordinate = CLLocationCoordinate2DMake(latitude, longitude)
+    
     
   }
 }

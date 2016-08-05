@@ -5,6 +5,7 @@ target 'GottaGo' do
 
   pod 'GoogleMaps'
   pod 'GooglePlacesAPI'
+  pod 'SwiftyJSON'
 
   target 'GottaGoTests' do
     inherit! :search_paths

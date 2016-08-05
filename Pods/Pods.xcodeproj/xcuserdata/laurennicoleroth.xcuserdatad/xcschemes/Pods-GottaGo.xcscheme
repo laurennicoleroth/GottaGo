@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3AC912EA829035F2CDC07A908B1EA187'
+               BlueprintIdentifier = '2F2277F2E16F81FB6705433544441784'
                BlueprintName = 'Pods-GottaGo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-GottaGo.framework'>
