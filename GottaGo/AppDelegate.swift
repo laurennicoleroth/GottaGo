@@ -7,15 +7,19 @@
 //
 
 import UIKit
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
-
+  let googleMapsApiKey = "AIzaSyD3NQWm9lYc_v-AqfoARaNAuhQv7jfhpiQ"
+  let googleMapsServerKey = "AIzaSyCnD78H3ZAU0SPmMdXG0ijeoIUBvxf6CvU"
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    // Override point for customization after application launch.
+    
+    GMSServices.provideAPIKey(googleMapsApiKey)
+    
     return true
   }
 

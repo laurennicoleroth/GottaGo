@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GottaGo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="GottaGo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +16,39 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJB-JZ-MBo" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tJB-JZ-MBo" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="5Fl-9b-rLe"/>
+                            <constraint firstItem="tJB-JZ-MBo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="R0P-kQ-q01"/>
+                            <constraint firstItem="tJB-JZ-MBo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RVz-sX-cmR"/>
+                            <constraint firstItem="tJB-JZ-MBo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="UBy-yZ-hDH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tJB-JZ-MBo" secondAttribute="bottom" id="gcW-9b-eZN"/>
+                            <constraint firstItem="tJB-JZ-MBo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ml6-EB-jKq"/>
+                            <constraint firstItem="tJB-JZ-MBo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="216" id="rZ1-x8-L3d"/>
+                            <constraint firstAttribute="trailing" secondItem="tJB-JZ-MBo" secondAttribute="trailing" id="sIR-U5-cs9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="UBy-yZ-hDH"/>
+                                <exclude reference="ml6-EB-jKq"/>
+                                <exclude reference="rZ1-x8-L3d"/>
+                                <exclude reference="gcW-9b-eZN"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="googleMapsView" destination="tJB-JZ-MBo" id="G6Z-O0-WPA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="234" y="274"/>
         </scene>
     </scenes>
 </document>
